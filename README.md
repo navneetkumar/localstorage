@@ -12,11 +12,13 @@ Usage
 
 2. It's extends the localstorage namespace by two new functions `setObject` and `getObject` .These two methods also can be used to store simple strings
 
-        student = { id : '1', 'name':'John', 'greet' : function() { console.log("Hello") } }
-        student.greet() //Returns Hello
-        localStorage.setObject(student.id,student)  // save object against a key
-        same_student = localStorage.getObject(student.id) //retrieve the same student using the key
-        same_student.greet()  // returns Hello
+```js
+student = { id : '1', 'name':'John', 'greet' : function() { console.log("Hello") } }
+student.greet() //Returns Hello
+localStorage.setObject(student.id,student)  // save object against a key
+same_student = localStorage.getObject(student.id) //retrieve the same student using the key
+same_student.greet()  // returns Hello
+```
 
 3.  It can be used to store complex and nested object and it would keep the behaviour of the object as-is.
 
