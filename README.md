@@ -20,5 +20,5 @@ same_student = localStorage.getObject(student.id) //retrieve the same student us
 same_student.greet()  // returns Hello
 ```
 
-3.  It can be used to store complex and nested object and it would keep the behaviour of the object as-is.
+3. It can be used to store complex and nested object and it would keep the behaviour of the object as-is.
 
